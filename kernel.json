@@ -1,0 +1,20 @@
+{
+ "argv": [
+  "/home/ec2-user/SageMaker/venv/aida_spark/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"],
+ "display_name": "Python (aida_pyspark)",
+ "language": "python",
+"env": {
+ "SPARK_LOCAL_IP": "127.0.0.1",
+ "SPARK_VERSION":"2.4.0",
+ "HADOOP_VERSION":"3.1.1",
+ "PATH":"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/home/ec2-user/SageMaker/spark/spark-2.4.0-bin-without-hadoop/bin",
+ "SPARK_HOME":"/home/ec2-user/SageMaker/spark/spark-2.4.0-bin-without-hadoop",
+ "SPARK_DIST_CLASSPATH":"/home/ec2-user/SageMaker/spark/hadoop-3.1.1/etc/hadoop:/home/ec2-user/SageMaker/spark/hadoop-3.1.1/share/hadoop/common/lib/*:/home/ec2-user/SageMaker/spark/hadoop-3.1.1/share/hadoop/common/*:/home/ec2-user/SageMaker/spark/hadoop3.1.1/share/hadoop/hdfs:/home/ec2-user/SageMaker/spark/hadoop-3.1.1/share/hadoop/hdfs/lib/*:/home/ec2-user/SageMaker/spark/hadoop-3.1.1/share/hadoop/hdfs/*:/home/ec2-user/SageMaker/spark/hadoop-3.1.1/share/hadoop/mapreduce/lib/*:/home/ec2-user/SageMaker/spark/hadoop-3.1.1/share/hadoop/mapreduce/*:/home/ec2-user/SageMaker/spark/hadoop-3.1.1/share/hadoop/yarn:/home/ec2-user/SageMaker/spark/hadoop-3.1.1/share/hadoop/yarn/lib/*:/home/ec2-user/SageMaker/spark/hadoop-3.1.1/share/hadoop/yarn/*",
+ "PYSPARK_PYTHON": "/home/ec2-user/SageMaker/venv/aida_spark/bin/python",
+ "PYTHONSTARTUP": "/home/ec2-user/SageMaker/spark/spark-2.4.0-bin-without-hadoop/python/pyspark/shell.py"
+ }
+}
